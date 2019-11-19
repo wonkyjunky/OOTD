@@ -2,10 +2,6 @@ import json
 import urllib.request
 
 
-city = input()
-city = city.replace(" ", "%20")
-
-
 
 class Weatherapi:
 	def get_data(self, city):
@@ -36,7 +32,6 @@ class Weatherapi:
 
 		a = (f"{name}, {country}.\n{tmp1}ºF. Condition: {condition}.")
 
-		return a
+		b = [name, tmp1, condition]
 
-weather = Weatherapi()
-print(weather.get_data(city));
+		return b

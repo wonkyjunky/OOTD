@@ -1,5 +1,7 @@
 from weather import Weatherapi
+from PIL import Image
 
+im1 = Image.open("weatherImage/cloud.png")
 
 #call the funtion from weather.py
 weather = Weatherapi()
@@ -12,5 +14,6 @@ city = city.replace(" ", "%20")
 
 for x in weather.get_data(city)[2].split():
 	if x == "clouds":
-		print("happy")
+		im1.show()
+		
 #working on the images if condition has cloud, it prints cloud image.

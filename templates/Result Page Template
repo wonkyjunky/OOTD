@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+<div align="center">
+<font size="6"><b>Monterey</b></font>
+</div>
+
+<h1>
+<div align="center">
+<!-- Sun icon & Temperature (Will vary when data from API is added)-->
+<font size="4"><img src="https://cdn4.iconfinder.com/data/icons/sun-11/50/20-512.png" width="20" height="20"> 30°C / 86°F </font> <br>
+<font size="3">We suggest the best outfits!</font>
+</div> 
+</h1>
+
+<p> 
+<div align="center">
+<!-- Orange T-Shirt-->
+<img src="https://cdn3.iconfinder.com/data/icons/essentials-volume-i/128/tshirt-3-512.png" width="80" height="80">  
+<!-- Shorts -->
+<img src="https://cdn0.iconfinder.com/data/icons/clothing-fashion/512/clothes_-_fashion_-_dress-15-512.png" width="80" height="80">
+<!-- Glasses -->
+<img src="https://cdn4.iconfinder.com/data/icons/weather-123/256/10-512.png" width="80" height="80">
+<!-- slippers -->
+<img src="https://cdn1.iconfinder.com/data/icons/universal-flat-outline/614/990_-_Slippers-512.png" width="80" height="80">
+<!-- Shirt -->
+<img src="https://image.flaticon.com/icons/svg/1016/1016650.svg" width="80" height="80">
+</div>
+</p>
+
+
+
+</body>
+</html>

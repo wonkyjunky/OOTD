@@ -24,6 +24,12 @@ class Weatherapi:
 		temp1 = weather[0]
 		main = temp1["main"]
 		condition = temp1["description"]
+		if ("cloud" in condition or "fog" in condition):
+			condition = "cloudy"
+		if ("sun" in condition or "clear" in condition):
+			condition = "sunny"
+		if ("rain" in condition):
+			condition = "rainy"
 
 		sys = j['sys']
 		country= sys['country']

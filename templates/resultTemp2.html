@@ -1,37 +1,56 @@
 <!DOCTYPE html>
 <html>
-<script language="javascript">
-<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+<div align="center">
+
+<script>
+// Use result_arr from API data -->	
+var result_arr = ["Monterey", "40", "Cloudy"]; 
 var city = result_arr[0];
 var temp = result_arr[1];
 var type = result_arr[2];
-<title>
-</title>
+</script>
+
+<p id="demo"></p>
+
+
+<head>
+<script>
+document.getElementById("demo").innerHTML = city; 
+</script>
 </head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<body>
-<div align="center">
-<font size="6"><b>document.getElementById("demo").innerHTML = city; </b></font>
-</div>
 
 <h1>
 <div align="center">
-<!-- Sun icon & Temperature (Will vary when data from API is added)-->
-if(type === "snowy") {
-	<font size="4"><img src="https://cdn0.iconfinder.com/data/icons/snowflakes-snow/617/Snowflakes_snow-10-512.png" width="20" height="20"> document.getElementById("demo").innerHTML = temp; °F </font> <br>
 
+<script>
+if (type == "Snowy"){
+    document.write("<img src='https://cdn0.iconfinder.com/data/icons/snowflakes-snow/617/Snowflakes_snow-10-512.png'>")
+}
+else if(type == "Clear"){
+	document.write("<img src='https://cdn4.iconfinder.com/data/icons/sun-11/50/20-512.png'>")  
+} 
 
-} else if(type === "clear"){
-	<font size="4"><img src="https://cdn4.iconfinder.com/data/icons/sun-11/50/20-512.png" width="20" height="20"> document.getElementById("demo").innerHTML = temp; °F </font> <br>
-
-
-} else if(type === "rainy"){
-	<font size="4"><img src="https://cdn2.iconfinder.com/data/icons/weather-414/24/cloud_rain-512.png" width="20" height="20"> document.getElementById("demo").innerHTML = temp; °F  </font> <br>
+else if(type == "Rainy"){
+	document.write("<img src='https://cdn2.iconfinder.com/data/icons/weather-414/24/cloud_rain-512.png'>")
 }
 
-	</script>
+else if(type == "Cloudy"){
+	document.write("<img src='https://icons-for-free.com/iconfiles/png/512/cloudy+foggy+weather+icon-1320196574869514194.png'>")
+}
+else {
+	document.write("<img src='https://cdn4.iconfinder.com/data/icons/sun-11/50/20-512.png'>")
+}
 
+</script>
+
+<p id="demo2"></p>
+<script>
+document.getElementById("demo2").innerHTML = temp; 
+</script> &#8457
+
+<br>
 <font size="3">We suggest the best outfits!</font>
 </div> 
 </h1>
@@ -39,7 +58,7 @@ if(type === "snowy") {
 <!-- Clothing data to be added by Won)-->
 
 <p> 
-<div align="center">
+
 <!-- Orange T-Shirt-->
 <img src="https://cdn3.iconfinder.com/data/icons/essentials-volume-i/128/tshirt-3-512.png" width="80" height="80">  
 <!-- Shorts -->

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -11,7 +12,7 @@
     <div id = "content">
   <h1 id = "head"><b>OUTFIT OF THE DAY</b></h1><br>
   <form action = "/results" id = "search" method="POST">
-      <input type="text" class="form-control" name="weather"><br>
+      <input type="text" placeholder= "Enter city.." class="form-control" name="weather"><br>
       <input type="range" min="20" max="100" value="50" id="priceRange">
       <p>Maximum Price: <span id="price"></span>$</p>
     	<button type="submit" class="btn btn-primary">Submit</button>
@@ -20,6 +21,7 @@
   </div>
   
   <script>
+//idea from w3schools
 var slider = document.getElementById("priceRange");
 var output = document.getElementById("price");
 output.innerHTML = slider.value;

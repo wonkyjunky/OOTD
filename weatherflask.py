@@ -16,6 +16,6 @@ def result():
 	if request.method == 'POST':
 		print("form recieved")
 		print("The user inputted: " + request.form.get("weather"))
-	
-	return render_template("result_super_temporary.html",output = "Hello, World!")
+	#["Monterey", "40", "Cloudy"] should be put in here
+	return render_template("resultTemp2.html",inputted_city = "Monterey", inputted_temp = "40", inputted_weather = "Sunny")
 app.run(debug=True, port=5000) 

@@ -4,7 +4,8 @@ import random
 import request
 
 class Clothapi():
-	def get_data(self, city):
+	@staticmethod
+	def get_data(self, city, price):
 
 		hatdata = clothes.hat_info
 		outerdata = clothes.outer_info

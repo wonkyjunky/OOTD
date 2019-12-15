@@ -93,7 +93,3 @@ class Clothapi():
 		finalnames.append(f)
 
 		return finalnames
-
-api = Clothapi()
-
-print(api.get_data("los%20angeles"))

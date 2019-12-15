@@ -12,11 +12,21 @@
   <h1 id = "head"><b>OUTFIT OF THE DAY</b></h1><br>
   <form action = "/results" id = "search" method="POST">
       <input type="text" class="form-control" name="weather"><br>
-      <center>
-    <button type="submit" class="btn btn-primary">Submit</button>
-    </center>
+      <input type="range" min="20" max="100" value="50" id="priceRange">
+      <p>Maximum Price: <span id="price"></span>$</p>
+    	<button type="submit" class="btn btn-primary">Submit</button>
   </form>
   </div>
   </div>
+  
+  <script>
+var slider = document.getElementById("priceRange");
+var output = document.getElementById("price");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
 </body>
 </html>

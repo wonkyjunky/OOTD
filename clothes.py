@@ -6,19 +6,19 @@ hat_info =  [
            "locationSJ" : "Westfield Oakridge",
            "locationSF" : "Westfield San Francisco Centre",
            "price" : 9.99,
-           "temperature" : [77, 104],
+           "temperature" : [50, 104],
            "tags" : ["hat", "sunny", "men"],
            "webpage" : "https://www2.hm.com/en_us/productpage.0781745001.html",
            "image" : "https://lp2.hm.com/hmgoepprod?set=source[/29/f5/29f5e0b1f5f45e00aa13498c869a60a714e98aea.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]"
     },
-	{
+	{  
            "name" : "Cap with Printed Design",
            "brand" : "H&M",
            "locationM" : "Del Monte Shopping Center",
            "locationSJ" : "Westfield Oakridge",
            "locationSF" : "Westfield San Francisco Centre",
            "price" : 6.99,
-           "temperature" : [77, 104],
+           "temperature" : [50, 104],
            "tags" : ["hat", "sunny", "men"],
            "webpage" : "https://www2.hm.com/en_us/productpage.0776950002.html",
            "image" : "https://lp2.hm.com/hmgoepprod?set=source[/7d/9c/7d9cb368a246e374a5710f79def4ede82c11e1b5.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]"
@@ -42,7 +42,7 @@ hat_info =  [
            "locationSJ" : "Westgate Center",
            "locationSF" : "Nike San Francisco",
            "price" : 35,
-           "temperature" : [77, 104],
+           "temperature" : [50, 104],
            "tags" : ["hat", "sunny", "unisex"],
            "webpage" : "https://www.nike.com/t/aerobill-classic-99-fitted-golf-hat-LBTge84q/892469-010",
            "image" : "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/b0atk4sddfrmo87tqyjt/aerobill-classic-99-fitted-golf-hat-LBTge84q.jpg"
@@ -66,7 +66,7 @@ hat_info =  [
            "locationSJ" : "Great Mall, Milpitas",
            "locationSF" : "865 Market St Suite 121 & 211, San Francisco",
            "price" : 14,
-           "temperature" : [77, 104],
+           "temperature" : [50, 104],
            "tags" : ["hat", "sunny", "unisex"],
            "webpage" : "https://www.adidas.com/us/trefoil-baseball-cap/EC3603.html",
            "image" : "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/9382df3f01f54fbf9a14a9610123ec22_9366/Trefoil_Baseball_Cap_Black_EC3603_01_standard.jpg"
@@ -402,7 +402,7 @@ shoe_info =  [
            "locationSJ" : "Westfield Oakridge",
            "locationSF" : "Westfield San Francisco Centre",
            "price" : 59.99,
-           "temperature" : ["32", "68"],
+           "temperature" : [32, 68],
            "tags" : ["shoe", "sunny", "cloudy", "rainy", "men"],
            "webpage" : "https://www2.hm.com/en_us/productpage.0663384005.html",
            "image" : "https://lp2.hm.com/hmgoepprod?set=source[/41/fc/41fc6bd42c1b02cb1cf14b900327def20d96afd0.jpg],origin[dam],category[men_shoes_boots],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]"
@@ -414,7 +414,7 @@ shoe_info =  [
            "locationSJ" : "Westfield Oakridge",
            "locationSF" : "Westfield San Francisco Centre",
            "price" : 34.99,
-           "temperature" : ["32", "104"],
+           "temperature" : [32, 104],
            "tags" : ["shoe", "sunny", "cloudy", "rainy", "men"],
            "webpage" : "https://www2.hm.com/en_us/productpage.0671809013.html",
            "image" : "https://lp2.hm.com/hmgoepprod?set=source[/a6/33/a6333c383ef1197c0569a63c3b81c4b24db7504d.jpg],origin[dam],category[men_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]"
@@ -426,7 +426,7 @@ shoe_info =  [
            "locationSJ" : "Westfield Oakridge",
            "locationSF" : "Westfield San Francisco Centre",
            "price" : 49.99,
-           "temperature" : ["32", "104"],
+           "temperature" : [32, 104],
            "tags" : ["shoe", "cloudy", "sunny", "men"],
            "webpage" : "https://www2.hm.com/en_us/productpage.0564375013.html",
            "image" : "https://lp2.hm.com/hmgoepprod?set=source[/66/1e/661e505362b9b5d639fc6048fbf4c485be750ec0.jpg],origin[dam],category[men_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]"

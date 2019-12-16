@@ -26,4 +26,6 @@ def result():
 
 
 	return render_template("resultTemp2.html",inputted_city = homepage_city, inputted_temp = weather_api_result[1], inputted_weather = weather_api_result[2], output_hat = clothes_api_result[0], output_outerwear = clothes_api_result[1], output_top = clothes_api_result[2], output_pants = clothes_api_result[3], output_shoes = clothes_api_result[4], output_accessories= clothes_api_result[5])
+
+
 app.run(debug=True, port=5000) 

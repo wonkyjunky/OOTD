@@ -6,7 +6,7 @@ hat_info =  [
            "locationSJ" : "Westfield Oakridge",
            "locationSF" : "Westfield San Francisco Centre",
            "price" : 9.99,
-           "temperature" : [50, 104],
+           "temperature" : [40, 104],
            "tags" : ["hat", "sunny", "men"],
            "webpage" : "https://www2.hm.com/en_us/productpage.0781745001.html",
            "image" : "https://lp2.hm.com/hmgoepprod?set=source[/29/f5/29f5e0b1f5f45e00aa13498c869a60a714e98aea.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]"
@@ -18,7 +18,7 @@ hat_info =  [
            "locationSJ" : "Westfield Oakridge",
            "locationSF" : "Westfield San Francisco Centre",
            "price" : 6.99,
-           "temperature" : [50, 104],
+           "temperature" : [40, 104],
            "tags" : ["hat", "sunny", "men"],
            "webpage" : "https://www2.hm.com/en_us/productpage.0776950002.html",
            "image" : "https://lp2.hm.com/hmgoepprod?set=source[/7d/9c/7d9cb368a246e374a5710f79def4ede82c11e1b5.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]"
@@ -31,7 +31,7 @@ hat_info =  [
            "locationSF" : "Westfield San Francisco Centre",
            "price" : 12.99,
            "temperature" : [32, 77],
-           "tags" : ["hat", "cloudy", "women"],
+           "tags" : ["hat", "cloudy", "sunny", "rainy", "women"],
            "webpage" : "https://www2.hm.com/en_us/productpage.0753779001.html",
            "image" : "https://lp2.hm.com/hmgoepprod?set=source[/3d/5a/3d5a11aba1f79e7914281815aacba3e7e0d9e721.jpg],origin[dam],category[ladies_accessories_hatsscarvesgloves_hats],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]"
     },
@@ -42,7 +42,7 @@ hat_info =  [
            "locationSJ" : "Westgate Center",
            "locationSF" : "Nike San Francisco",
            "price" : 35,
-           "temperature" : [50, 104],
+           "temperature" : [40, 104],
            "tags" : ["hat", "sunny", "unisex"],
            "webpage" : "https://www.nike.com/t/aerobill-classic-99-fitted-golf-hat-LBTge84q/892469-010",
            "image" : "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/b0atk4sddfrmo87tqyjt/aerobill-classic-99-fitted-golf-hat-LBTge84q.jpg"
@@ -55,7 +55,7 @@ hat_info =  [
            "locationSF" : "Nike San Francisco",
            "price" : 23.97,
            "temperature" : [32, 77],
-           "tags" : ["hat", "cloudy", "unisex"],
+           "tags" : ["hat", "cloudy", "sunny", "rainy", "unisex"],
            "webpage" : "https://www.nike.com/t/acg-beanie-GH6jD0",
            "image" : "https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/jfhyt4dhoyx50iqz7fhn/acg-beanie-GH6jD0.jpg"
     },
@@ -66,7 +66,7 @@ hat_info =  [
            "locationSJ" : "Great Mall, Milpitas",
            "locationSF" : "865 Market St Suite 121 & 211, San Francisco",
            "price" : 14,
-           "temperature" : [50, 104],
+           "temperature" : [40, 104],
            "tags" : ["hat", "sunny", "unisex"],
            "webpage" : "https://www.adidas.com/us/trefoil-baseball-cap/EC3603.html",
            "image" : "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/9382df3f01f54fbf9a14a9610123ec22_9366/Trefoil_Baseball_Cap_Black_EC3603_01_standard.jpg"
@@ -79,7 +79,7 @@ hat_info =  [
            "locationSF" : "865 Market St Suite 121 & 211, San Francisco",
            "price" : 15,
            "temperature" : [32, 77],
-           "tags" : ["hat", "cloudy", "unisex"],
+           "tags" : ["hat", "cloudy", "sunny", "rainy", "unisex"],
            "webpage" : "https://www.adidas.com/us/trefoil-beanie/CL5312.html",
            "image" : "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/703405e8e26e4f4eae38aa0f0074e20b_9366/Trefoil_Beanie_Orange_CL5312_01_standard.jpg"
     },
@@ -91,7 +91,7 @@ hat_info =  [
            "locationSF" : "801 Market St, San Francisco",
            "price" : 18,
            "temperature" : [32, 77],
-           "tags" : ["hat", "cloudy", "unisex"],
+           "tags" : ["hat", "cloudy", "sunny", "rainy", "unisex"],
            "webpage" : "https://oldnavy.gap.com/browse/product.do?pid=503441002&cid=1145769&pcid=1143970&vid=1&grid=pds_0_46_1#pdp-page-content",
            "image" : "https://oldnavy.gap.com/webcontent/0017/772/107/cn17772107.jpg"
     }

@@ -58,17 +58,29 @@ document.getElementById("demo2").innerHTML = temp;
 <p> 
 
 <!-- hat-->
-<img src="{{output_hat}}" width="80" height="80">  
+<a href = "{{url_for('article_of_clothing', output = outfit_data_arr[0])}}">
+<img src="{{output_hat}}" width="80" height="80">
+</a>  
 <!-- outerwear -->
+<a href = "{{url_for('article_of_clothing', output = outfit_data_arr[1])}}">
 <img src="{{output_outerwear}}" width="80" height="80">
+</a>
 <!-- shirt/top -->
+<a href = "{{url_for('article_of_clothing', output = outfit_data_arr[2])}}">
 <img src="{{output_top}}" width="80" height="80">
+</a>
 <!-- pants -->
+<a href = "{{url_for('article_of_clothing', output = outfit_data_arr[3])}}">
 <img src="{{output_pants}}" width="80" height="80">
+</a>
 <!-- shoes -->
+<a href = "{{url_for('article_of_clothing', output = outfit_data_arr[4])}}">
 <img src="{{output_shoes}}" width="80" height="80">
+</a>
 <!-- accessories -->
+<a href = "{{url_for('article_of_clothing', output = outfit_data_arr[5])}}">
 <img src="{{output_accessories}}" width="80" height="80">
+</a>
 </div>
 </p>
 

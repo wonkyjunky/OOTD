@@ -19,19 +19,18 @@ app = Flask(__name__,
             template_folder='templates')
 
 
-@app.route('/test/')
+@app.route('/test')
 def article_of_clothing():
-	stuff = request.args.get(output)
-	# clothing_data = ast.literal_eval(output)
-	# print(stuff)
-	return output
+	article_data = request.args.get('output', default = '*', type = str)
+	article_data = ast.literal_eval(article_data)
+	return render_template("article_of_clothing.html",clothing_data = article_data)
 
 @app.route('/', methods = ['POST','GET'])
 def home():
  return render_template('homepage.html')
  
 
-@app.route('/results', methods = ['POST']) 
+@app.route('/results', methods = ['POST', 'GET']) 
 def result():
 	homepage_city = request.form.get("homepage_city")
 	homepage_price = request.form.get("homepage_price")
@@ -51,6 +50,10 @@ def result():
 	accessories_dict = find_dict_from_url(clothes.acc_info, clothes_api_result[5])
 	
 	outfit_data_arr = [hat_dict,outerwear_dict,top_dict,pants_dict,shoes_dict,accessories_dict]
+
+	for i in range(len(outfit_data_arr)):
+		outfit_data_arr[i] = str(outfit_data_arr[i])
+
 	return render_template("resultTemp2.html",inputted_city = homepage_city, inputted_temp = weather_api_result[1], inputted_weather = weather_api_result[2], output_hat = clothes_api_result[0], output_outerwear = clothes_api_result[1], output_top = clothes_api_result[2], output_pants = clothes_api_result[3], output_shoes = clothes_api_result[4], output_accessories= clothes_api_result[5], outfit_data_arr = outfit_data_arr)
 
 

@@ -1,1 +1,20 @@
-{{clothing_data}}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+</head>
+<body>
+
+<div id = content>
+<h1>Clothing Data</h1>
+
+<img height = "150" width = "150" src= "{{clothing_data['image']}}"></img>
+<h2>Name: {{clothing_data["name"]}}</h2>
+<h2>Brand: {{clothing_data["brand"]}}</h2>
+<h2>Price: ${{clothing_data["price"]}}</h2>
+<a href = "{{clothing_data['webpage']}}"<button type="button" class="btn btn-primary">Buy Here</button></a>
+<h3></h3>
+</div>   
+</body>
+</html>

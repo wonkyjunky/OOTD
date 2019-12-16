@@ -1,0 +1,10 @@
+Flask==1.1.1
+Flask-Bootstrap==3.3.7.1
+Flask-WTF==0.14.2
+Jinja2==2.10.3
+post==2019.4.13
+request==2019.4.13
+requests==2.22.0
+requests-oauthlib==1.2.0
+urllib3==1.25.6
+WTForms==2.2.1

@@ -1,11 +1,11 @@
 import clothes
 from weather import Weatherapi
 import random
-import request
+import requests
 
 class Clothapi():
 	@staticmethod
-	def get_data(self, city, price):
+	def get_data(city, price):
 
 		hatdata = clothes.hat_info
 		outerdata = clothes.outer_info
@@ -27,7 +27,7 @@ class Clothapi():
 		finalnames = []
 
 		for x in hatdata:
-			if (x["price"] > 0 and x["price"] < 1000):
+			if (float(x["price"]) > 0 and float(x["price"]) < float(price)):
 				for a in x["tags"]:
 					if a == arr[2]:
 						if x["temperature"][0] <= arr[1] and x["temperature"][1] >= arr[1]:
@@ -35,11 +35,11 @@ class Clothapi():
 
 		if (len(hatnames) > 0):
 			a = random.choice(hatnames)
-
+ 
 		finalnames.append(a)
 
 		for x in outerdata:
-			if (x["price"] > 0 and x["price"] < 1000):
+			if (float(x["price"]) > 0 and float(x["price"]) < float(price)):
 				for a in x["tags"]:
 					if a == arr[2]:
 						if x["temperature"][0] <= arr[1] and x["temperature"][1] >= arr[1]:
@@ -50,7 +50,7 @@ class Clothapi():
 		finalnames.append(b)
 
 		for x in topdata:
-			if (x["price"] > 0 and x["price"] < 1000):
+			if (float(x["price"]) > 0 and float(x["price"]) < float(price)):
 				for a in x["tags"]:
 					if a == arr[2]:
 						if x["temperature"][0] <= arr[1] and x["temperature"][1] >= arr[1]:
@@ -62,7 +62,7 @@ class Clothapi():
 
 
 		for x in pantsdata:
-			if (x["price"] > 0 and x["price"] < 1000):
+			if (float(x["price"]) > 0 and float(x["price"]) < float(price)):
 				for a in x["tags"]:
 					if a == arr[2]:
 						if x["temperature"][0] <= arr[1] and x["temperature"][1] >= arr[1]:
@@ -73,7 +73,7 @@ class Clothapi():
 		finalnames.append(d)
 
 		for x in shoedata:
-			if (x["price"] > 0 and x["price"] < 1000):
+			if (float(x["price"]) > 0 and float(x["price"]) < float(price)):
 				for a in x["tags"]:
 					if a == arr[2]:
 						if x["temperature"][0] <= arr[1] and x["temperature"][1] >= arr[1]:
@@ -83,7 +83,7 @@ class Clothapi():
 		finalnames.append(e)
 
 		for x in accdata:
-			if (x["price"] > 0 and x["price"] < 1000):
+			if (float(x["price"]) > 0 and float(x["price"]) < float(price)):
 				for a in x["tags"]:
 					if a == arr[2]:
 						if x["temperature"][0] <= arr[1] and x["temperature"][1] >= arr[1]:

@@ -18,6 +18,7 @@ def result():
 	homepage_price = request.form.get("homepage_price")
 	print(homepage_city)
 	print(homepage_price)
-	# Clothapi.get_data(homepage_city)
+	temp = Clothapi()
+	print(temp.get_data(homepage_city, homepage_price))
 	return render_template("resultTemp2.html",inputted_city = "Monterey", inputted_temp = "40", inputted_weather = "Sunny")
 app.run(debug=True, port=5000) 

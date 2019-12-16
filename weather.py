@@ -4,7 +4,8 @@ import urllib.request
 
 
 class Weatherapi:
-	def get_data(self, city):
+	@staticmethod
+	def get_data(city):
 
 		loca=""
 		url='http://api.openweathermap.org/data/2.5/weather?q='+city+',us&appid=c9ed41a4f7c70f576c1527b42d197266'

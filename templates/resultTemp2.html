@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+<link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
 <div align="center">
 
 <script>
@@ -20,22 +20,21 @@ document.getElementById("demo").innerHTML = city;
 </script>
 </head>
 
-<h1>
 <div align="center">
 
 <script>
-if (type == "Snowy"){
+if (type == "snowy"){
     document.write("<img src='https://cdn0.iconfinder.com/data/icons/snowflakes-snow/617/Snowflakes_snow-10-512.png'>")
 }
-else if(type == "Clear"){
+else if(type == "clear"){
 	document.write("<img src='https://cdn4.iconfinder.com/data/icons/sun-11/50/20-512.png'>")  
 } 
 
-else if(type == "Rainy"){
+else if(type == "rainy"){
 	document.write("<img src='https://cdn2.iconfinder.com/data/icons/weather-414/24/cloud_rain-512.png'>")
 }
 
-else if(type == "Cloudy"){
+else if(type == "cloudy"){
 	document.write("<img src='https://icons-for-free.com/iconfiles/png/512/cloudy+foggy+weather+icon-1320196574869514194.png'>")
 }
 else {
@@ -52,22 +51,24 @@ document.getElementById("demo2").innerHTML = temp;
 <br>
 <font size="3">We suggest the best outfits!</font>
 </div> 
-</h1>
+
 
 <!-- Clothing data to be added by Won)-->
 
 <p> 
 
-<!-- Orange T-Shirt-->
-<img src="https://cdn3.iconfinder.com/data/icons/essentials-volume-i/128/tshirt-3-512.png" width="80" height="80">  
-<!-- Shorts -->
-<img src="https://cdn0.iconfinder.com/data/icons/clothing-fashion/512/clothes_-_fashion_-_dress-15-512.png" width="80" height="80">
-<!-- Glasses -->
-<img src="https://cdn4.iconfinder.com/data/icons/weather-123/256/10-512.png" width="80" height="80">
-<!-- slippers -->
-<img src="https://cdn1.iconfinder.com/data/icons/universal-flat-outline/614/990_-_Slippers-512.png" width="80" height="80">
-<!-- Shirt -->
-<img src="https://image.flaticon.com/icons/svg/1016/1016650.svg" width="80" height="80">
+<!-- hat-->
+<img src="{{output_hat}}" width="80" height="80">  
+<!-- outerwear -->
+<img src="{{output_outerwear}}" width="80" height="80">
+<!-- shirt/top -->
+<img src="{{output_top}}" width="80" height="80">
+<!-- pants -->
+<img src="{{output_pants}}" width="80" height="80">
+<!-- shoes -->
+<img src="{{output_shoes}}" width="80" height="80">
+<!-- accessories -->
+<img src="{{output_accessories}}" width="80" height="80">
 </div>
 </p>
 

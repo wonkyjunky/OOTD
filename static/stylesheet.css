@@ -16,6 +16,10 @@ margin: 0;
   transform: translate(-50%, -50%);
 }
 
+#weather_image {
+	height: 50px;
+	width: 50px;
+}
 #priceRange {
 	
 }

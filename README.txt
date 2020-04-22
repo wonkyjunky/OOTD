@@ -1,2 +1,15 @@
-# cst205_group13_final_project
-Group 13 final project for CST205 / CSUMB
+# Project - OOTD - 'Outfit of the day"
+
+**OOTD - 'Outfit of the day"** is a web application which recommends outfits based on current weather data. Data from Weather API and program is coded in python and HTML. 
+
+## MVP
+Here's a proto-type of our product:
+
+<img src='https://github.com/wonkyjunky/OOTD/blob/master/ootd1.png' width='' alt='ootd1' />
+<img src='https://github.com/wonkyjunky/OOTD/blob/master/ootd2.png' width='' alt='ootd2' />
+<img src='https://github.com/wonkyjunky/OOTD/blob/master/ootd3.png' width='' alt='ootd3' />
+
+## Notes
+
+Wonkyu :
+It was very challenging to use flask for the first time. most of the work i've worked on front-end and back-end, Mostly back-end. it was very enjoyable. 

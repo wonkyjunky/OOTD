@@ -5,9 +5,9 @@
 ## MVP
 Here's a proto-type of our product:
 
-<img src='https://github.com/wonkyjunky/OOTD/blob/master/ootd1.png' width='' alt='ootd1' />
-<img src='https://github.com/wonkyjunky/OOTD/blob/master/ootd2.png' width='' alt='ootd2' />
-<img src='https://github.com/wonkyjunky/OOTD/blob/master/ootd3.png' width='' alt='ootd3' />
+<img src='https://github.com/wonkyjunky/OOTD/blob/master/ootd1.png' width='200' alt='ootd1' />
+<img src='https://github.com/wonkyjunky/OOTD/blob/master/ootd2.png' width='200' alt='ootd2' />
+<img src='https://github.com/wonkyjunky/OOTD/blob/master/ootd3.png' width='200' alt='ootd3' />
 
 ## Notes
 

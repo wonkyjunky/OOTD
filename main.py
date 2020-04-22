@@ -36,12 +36,13 @@ def result():
 	homepage_price = request.form.get("homepage_price")
 	print(homepage_city)
 	print(homepage_price)
-	
+
+	homepage_city = homepage_city.replace(" ", "%20")
 	clothes_api_result = Clothapi().get_data(homepage_city, homepage_price)
 	weather_api_result = Weatherapi().get_data(homepage_city)
 	print(weather_api_result)
 	
-
+	homepage_city = homepage_city.replace("%20", " ")
 	hat_dict =  find_dict_from_url(clothes.hat_info, clothes_api_result[0])
 	outerwear_dict = find_dict_from_url(clothes.outer_info, clothes_api_result[1]) 
 	top_dict = find_dict_from_url(clothes.top_info, clothes_api_result[2])

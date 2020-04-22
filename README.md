@@ -6,7 +6,11 @@
 Here's a proto-type of our product:
 
 <img src='https://github.com/wonkyjunky/OOTD/blob/master/ootd1.png' width='400' alt='ootd1' />
+
+
 <img src='https://github.com/wonkyjunky/OOTD/blob/master/ootd2.png' width='400' alt='ootd2' />
+
+
 <img src='https://github.com/wonkyjunky/OOTD/blob/master/ootd3.png' width='400' alt='ootd3' />
 
 ## Notes
